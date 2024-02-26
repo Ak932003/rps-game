@@ -58,6 +58,10 @@ img{
     .score-board{
         flex-direction: column;
     }
+    #msg{
+        font-size:1rem;
+        line-height:1.5rem;
+    }
 }
 @media (max-width: 430px){
     .choices{
@@ -84,7 +88,7 @@ img{
     background-color: #081b31;
     color: #fff;
     font-size: 2rem;
-    line-height:2rem
+    line-height:2rem;
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
