@@ -35,6 +35,18 @@ img{
     align-items: center;
     gap: 3rem;
 }
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    line-height:2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: .3s;
+    font-weight: bold;
+}
+
 @media (max-width: 592px){
     .choice{
         height: 125px;
@@ -83,15 +95,4 @@ img{
 }
 .msg-container{
     margin-top: 5rem;
-}
-#msg{
-    background-color: #081b31;
-    color: #fff;
-    font-size: 2rem;
-    line-height:2rem;
-    display: inline;
-    padding: 1rem;
-    border-radius: 1rem;
-    transition: .3s;
-    font-weight: bold;
 }
